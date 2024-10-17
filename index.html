@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog about my interests and passions">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        nav {
+            text-align: right;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        .blog-post img {
+            max-width: 50%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My On/Of Life</h1>
+        <p>Sharing my thoughts and passions with the world!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#posts">Blog Posts</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Blog Posts Section -->
+    <div class="container" id="posts">
+        <h2>Blog Posts</h2>
+        <h3>Blog Post 1</h3>
+        <div class="blog-post">
+            <h3>"Escape to Paradise: An Unforgettable Trip to Manali"</h3>
+            <p><strong>Summary:</strong>"It was an unbelievable trip with my college friends during our third year, one we had been eagerly waiting for a long time. We spent three amazing days in Manali, Himachal Pradesh. I was especially excited because it would be my first time seeing snow, and I couldn't wait to play in it. The thought of escaping from studies and restrictions made the experience even more incredible."</p>
+            <img src="manali.jpg" alt="Blog Image 1">
+            <p>Date: 2024-02-15</p>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post 2</h3>
+            <h3>"Champions of the Field: Securing the Gold in College Football</h3>
+            <p><strong>Summary:</strong>"In the college football tournament 'Footprint,' a team led by me and my classmates won the gold medal. Throughout the tournament, I scored 4 goals and provided 3 assists, making me the top scorer for my team. However, it was the overall contribution of every player that ultimately led us to win the championship."</p>
+            <img src="trophy.jpg" alt="Blog Image 2">
+            <p>Date: 2023-07-21</p>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post 3</h3>
+            <h3>"Splashing into Fun: A Day at Blue World Waterpark"</h3>
+            <p><strong>Summary:</strong>"A day at Blue World Water Park in Kanpur with my hostel friends was an unforgettable experience. We enjoyed so many water rides, though one of my friends was terrified at first. Still, we convinced him to join us on one of the most thrilling rides I've ever been on! After the water rides, we played bumper cars, crashing into each other’s cars with so much fun. It was truly one of the most unforgettable moments of my life."</p>
+            <img src="blueworld.jpg" alt="Blog Image 3">
+            <p>Date: 2023-11-07</p>
+        </div>
+
+        <!-- Embedded Video -->
+        <div>
+            <h3>Watch My Video</h3>
+            <video controls width="200">
+                <source src="intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Deependra Kumar, and I created this blog to share my thoughts on various topics like technology, travel, and personal growth. I hope you enjoy the content!</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="email" placeholder="Your email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Or find me on social media:</p>
+        <a href="https://github.com/Deependraaa">Github</a> | <a href="https://www.linkedin.com/in/deependra-kumar-080323230/">LinkedIn</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Deependra Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
